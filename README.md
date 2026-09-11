@@ -185,7 +185,7 @@ Make sure you have:
 ```bash
 git clone https://github.com/alanoud-alfawzan/Cloud.git
 
-cd aws-iam-governance-report
+cd Cloud
 ```
 
 ---
