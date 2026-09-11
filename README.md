@@ -242,7 +242,7 @@ aws sts get-caller-identity
 ### 5. Run the script
 
 ```bash
-python iam_governance.py
+python IAM_Governance.py
 ```
 
 You should see:
@@ -321,29 +321,6 @@ Review Inactive User
 
 ---
 
-## 🛠️ Future Improvements
-
-Possible improvements include:
-
-* Support for IAM Roles
-* Support for IAM Groups
-* Pagination for AWS API responses
-* Detection of unused access keys
-* More detailed policy analysis
-* Policy document normalization
-* Detection of overly broad `Allow` statements
-* AWS Organizations support
-* Multi-account analysis
-* CSV export
-* HTML dashboard
-* CloudWatch integration
-* Security Hub integration
-* Automated reporting
-* CI/CD integration
-* Terraform-based deployment
-
----
-
 ## 🎯 Purpose
 
 The main goal of this project is to demonstrate how **Python, AWS APIs, and automation** can be used to improve IAM governance and security visibility.
@@ -368,10 +345,6 @@ Instead of manually reviewing IAM users and permissions through the AWS Console,
 
 **Alanoud Alfawzan**
 
-Cloud Engineering | AWS | Automation | IAM | Cybersecurity
+Cloud Engineering | AWS | Automation
 
 ---
-
-## 📄 License
-
-This project is intended for educational and internal governance purposes.
